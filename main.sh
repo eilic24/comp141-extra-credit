@@ -31,6 +31,6 @@ chmod a+rx permissions.txt
 #shell variable
 TESTNV1="test"
 #grep command
-grep -E '\b\w\w\w\w*\b' data.txt > regex.txt
+grep -E '\b\w{3,}\b' regex.txt
 #navigate level
 cd ..
