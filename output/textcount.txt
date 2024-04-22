@@ -1,1 +1,1 @@
-12 data.txt
+66 data.txt
