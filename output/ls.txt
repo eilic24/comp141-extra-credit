@@ -8,4 +8,5 @@ permissions.txt
 process.txt
 pwd.txt
 read.txt
+regex.txt
 textcount.txt

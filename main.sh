@@ -26,10 +26,10 @@ ifconfig | head -n 5 > netstat.txt
 #(5 lines) mount command
 mount | head -n 5 > mount.txt
 #permissions
-cat > permissions.txt
+touch permissions.txt
 chmod a+rx permissions.txt
 #shell variable
-TESTNV1 ="test"
+TESTNV1="test"
 #grep command
 grep -E '\b\w{3,}\b' data.txt > regex.txt
 #navigate level
